@@ -1,0 +1,28 @@
+{
+  "name": "trading-journal-backend",
+  "version": "1.0.0",
+  "description": "Professional Trading Journal Backend API",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "migrate": "node src/migrations/init.js"
+  },
+  "keywords": ["trading", "journal", "api"],
+  "author": "Trading Journal Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-cors": "^0.0.1",
+    "dotenv": "^16.0.3",
+    "pg": "^8.9.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.0",
+    "multer": "^1.4.5-lts.1",
+    "axios": "^1.3.4",
+    "joi": "^17.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
